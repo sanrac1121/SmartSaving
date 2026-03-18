@@ -338,17 +338,19 @@ class _ProductDetailScreenState extends ConsumerState<ProductDetailScreen> {
               ],
             ),
           ),
-        ),
+         ],
+          )
         // Loading overlay
-        if (showLoadingOverlay)
-          Container(
-            color: Colors.black.withOpacity(0.3),
-            child: const Center(
-              child: CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
-              ),
-            ),
-          ),
+        // if (showLoadingOverlay)
+        //   Container(
+        //     color: Colors.black.withOpacity(0.3),
+        //     child: const Center(
+        //       child: CircularProgressIndicator(
+        //         valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+        //       ),
+        //     ),
+        // )
+        ),
       ],
     );
   }

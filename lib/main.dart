@@ -14,6 +14,8 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await notificationService.initialize();
   runApp(const ProviderScope(child: SmartSavingApp()));
+
+  
 }
 
 class SmartSavingApp extends StatelessWidget {
